@@ -1,0 +1,30 @@
+{
+  "name": "@ozylog/ui-form",
+  "version": "0.0.0",
+  "description": "React UI Form",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "boilerplate --build=react",
+    "build": "boilerplate --build=react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozylog/ui-form.git"
+  },
+  "keywords": [
+    "ozylog",
+    "ui",
+    "form",
+    "react"
+  ],
+  "author": "Cahya Pribadi <cahya@monelog.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ozylog/ui-form/issues"
+  },
+  "homepage": "https://github.com/ozylog/ui-form#readme",
+  "devDependencies": {
+    "@ozylog/boilerplate": "^0.4.6"
+  },
+  "dependencies": {}
+}

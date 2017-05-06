@@ -1,0 +1,14 @@
+.UIForm-Button {
+
+  button {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 7px 11px;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}

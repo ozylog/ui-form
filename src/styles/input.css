@@ -1,0 +1,21 @@
+.UIForm-Input {
+
+  input[type='text'],
+  input[type='email'],
+  input[type='password'] {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 7px 11px;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &::placeholder {
+      color: inherit;
+      opacity: 0.8;
+    }
+  }
+}
