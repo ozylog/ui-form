@@ -11,4 +11,8 @@
   &:focus {
     outline: 0;
   }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
 }

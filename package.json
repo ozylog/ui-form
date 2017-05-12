@@ -25,6 +25,5 @@
   "homepage": "https://github.com/ozylog/ui-form#readme",
   "devDependencies": {
     "@ozylog/boilerplate": "^0.4.6"
-  },
-  "dependencies": {}
+  }
 }
