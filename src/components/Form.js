@@ -22,9 +22,9 @@ export default class Form extends Component {
     if (className) classes.push(className);
 
     return (
-      <Form className={classes.join(' ')} {...props}>
+      <form className={classes.join(' ')} {...props}>
         {children}
-      </Form>
+      </form>
     );
   }
 }
