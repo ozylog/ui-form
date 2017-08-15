@@ -1,7 +1,7 @@
 {
   "name": "@ozylog/ui-form",
   "version": "0.1.3",
-  "description": "React UI Form",
+  "description": "React UI Form with react-jss",
   "main": "./dist/index.js",
   "scripts": {
     "prepublish": "boilerplate --build=react",
@@ -24,6 +24,11 @@
   },
   "homepage": "https://github.com/ozylog/ui-form#readme",
   "devDependencies": {
-    "@ozylog/boilerplate": "^0.4.6"
+    "@ozylog/boilerplate": "^0.6.9"
+  },
+  "peerDependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-jss": "^7.0.2"
   }
 }

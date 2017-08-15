@@ -1,5 +1,3 @@
-// @flow
-
 'use strict';
 
 import React, {Component} from 'react';
@@ -15,7 +13,7 @@ export default class Form extends Component {
     super(props);
   }
 
-  render(): React$Element<any> {
+  render() {
     const {className, children, ...props}: PropsType = this.props;
     const classes: Array<string> = ['UIForm'];
 
