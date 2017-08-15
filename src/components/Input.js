@@ -25,9 +25,10 @@ export default class Input extends Component {
   }
 
   render() {
-    const {className, classes, ...props}: {className: string, classes: Object, props: Array<any>} = this.props;
-    const classNameArr: Array<string> = [classes.input];
+    const {className, classes, sheet, ...props}: {className: string, classes: Object, sheet: Object, props: Array<any>} = this.props;
+    const classNameArr: Array<string> = [];
 
+    if (classes && sheet) classNameArr.push(classes.input);
     if (className) classNameArr.push(className);
 
     return (

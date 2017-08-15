@@ -29,9 +29,10 @@ export default class Button extends Component {
   }
 
   render() {
-    const {className, classes, value, ...props}: {className: string, classes: Object, value: string, props: Array<any>} = this.props;
-    const classNameArr: Array<string> = [classes.button];
+    const {className, classes, sheet, value, ...props}: {className: string, classes: Object, sheet: Object, value: string, props: Array<any>} = this.props;
+    const classNameArr: Array<string> = [];
 
+    if (classes && sheet) classNameArr.push(classes.button);
     if (className) classNameArr.push(className);
 
     return (
