@@ -12,6 +12,7 @@ const styles: Object = {
     fontFamily: 'inherit',
     fontSize: 'inherit',
     padding: '7px 9px',
+    width: '100%',
     '&:focus': {
       outline: 0
     }

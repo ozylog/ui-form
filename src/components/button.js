@@ -13,6 +13,7 @@ const styles: Object = {
     fontSize: 'inherit',
     padding: '7px 9px',
     textAlign: 'center',
+    width: '100%',
     '&:focus': {
       outline: 0
     },
