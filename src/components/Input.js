@@ -11,7 +11,7 @@ const styles: Object = {
     boxSizing: 'border-box',
     fontFamily: 'inherit',
     fontSize: 'inherit',
-    padding: '7px 9px',
+    padding: '9px 11px',
     width: '100%',
     '&:focus': {
       outline: 0

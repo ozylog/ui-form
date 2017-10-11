@@ -11,7 +11,7 @@ const styles: Object = {
     cursor: 'pointer',
     fontFamily: 'inherit',
     fontSize: 'inherit',
-    padding: '7px 9px',
+    padding: '9px 11px',
     textAlign: 'center',
     width: '100%',
     '&:focus': {
