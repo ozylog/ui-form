@@ -6,7 +6,7 @@ import injectSheet from 'react-jss';
 const styles: Object = {
   input: {
     background: '#ffffff',
-    border: '1px solid #cccccc',
+    border: '1px solid #e7e7e7',
     borderRadius: '3px',
     boxSizing: 'border-box',
     fontFamily: 'inherit',
