@@ -1,6 +1,6 @@
 {
   "name": "@ozylog/ui-form",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "React UI Form with react-jss",
   "main": "./dist/index.js",
   "scripts": {
